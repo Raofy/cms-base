@@ -1,0 +1,16 @@
+com\rfy\constant\TokenConstant.class
+com\rfy\enumeration\UserLevel.class
+com\rfy\annotation\AdminRequire.class
+com\rfy\annotation\LoginRequire.class
+com\rfy\annotation\PermissionModule.class
+com\rfy\token\Tokens.class
+com\rfy\config\Test.class
+com\rfy\logger\AdvanceRollingFileAppender.class
+com\rfy\token\DoubleJWT.class
+com\rfy\token\SingleJWT.class
+com\rfy\annotation\Require.class
+com\rfy\annotation\GroupRequire.class
+com\rfy\util\DateUtil.class
+com\rfy\annotation\PermissionMeta.class
+com\rfy\annotation\RefreshRequire.class
+com\rfy\util\AnnotationUtil.class

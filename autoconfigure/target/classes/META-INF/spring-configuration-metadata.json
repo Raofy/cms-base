@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "jin10.cms",
+      "type": "com.rfy.configure.CmsProperties",
+      "sourceType": "com.rfy.configure.CmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jin10.cms.exclude-methods",
+      "type": "java.lang.String[]",
+      "sourceType": "com.rfy.configure.CmsProperties",
+      "defaultValue": [
+        "OPTIONS"
+      ]
+    },
+    {
+      "name": "jin10.cms.token-access-expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.rfy.configure.CmsProperties"
+    },
+    {
+      "name": "jin10.cms.token-refresh-expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.rfy.configure.CmsProperties"
+    },
+    {
+      "name": "jin10.cms.token-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.rfy.configure.CmsProperties",
+      "defaultValue": ""
+    }
+  ],
+  "hints": []
+}

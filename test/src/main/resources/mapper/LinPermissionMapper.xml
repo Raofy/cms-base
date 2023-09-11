@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.mapper.LinPermissionMapper">
+    <select id="getPermissionByGroupIds" resultType="com.test.entity.LinPermission">
+        SELECT lp.id, lp.name, lp.module, lp.mount
+        FROM lin_group lg
+        left join lin_group_permission lgp on lg.id = lgp.group_id
+        left join lin_permission lp on lgp.permission_id = lp.id
+        where lp.delete_time is null AND lg.delete_time is null  AND lg.id IN
+        <foreach collection="groupIds" index="index" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </select>
+</mapper>

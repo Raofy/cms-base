@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.test.configuer.CodeMessageConfigure",
+      "sourceType": "com.test.configuer.CodeMessageConfigure"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

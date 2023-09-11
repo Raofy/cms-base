@@ -1,0 +1,7 @@
+spring:
+  # 数据源配置，请修改为你项目的实际配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 9425361raoyy
+    url: jdbc:mysql://154.221.20.179:3306/base-cms?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8
+    username: root

@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+jin10:
+  cms:
+    # 令牌 secret
+    token-secret: x88Wf0991079889x8796a0Ac68f9ecJJU17c5Vbe8beod7d8d3e695*4
+    # access token 过期时间，3600s 一个小时
+    token-access-expire: 3600
+    # refresh token 过期时间，2592000s 一个月
+    token-refresh-expire: 2592000
+mybatis-plus:
+  global-config:
+    db-config:
+      # 逻辑删除
+      logic-not-delete-value: 'NULL'
+      logic-delete-value: NOW()
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
